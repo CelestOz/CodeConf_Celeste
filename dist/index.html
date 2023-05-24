@@ -14,24 +14,24 @@
 <!-- HEADER -->
 
   <header>
-    <img src="/dist/image/logos/logo2023.svg" alt="LogoCodeConf" class="logo">
-    <ul class="categories">
-      <li><a href="#" class="category">Event</a>|</li>
-      <li><a href="#" class="category">Speakers</a>|</li>
-      <li><a href="#" class="category">Team</a>|</li>
-      <li><a href="#" class="category">Contact</a></li>
-      <li><img src="#" alt="calendar" class="icon"><a href="#" class="category">Schedule</a></li>
-    </ul></li>
-    <img src="#" alt="search" class="icon">
+    <nav>
+      <img src="/dist/image/logos/logo2023.svg" alt="LogoCodeConf" class="logo">
+        <a href="#" class="category">Event</a>|
+        <a href="#" class="category">Speakers</a>|
+        <a href="#" class="category">Team</a>|
+        <a href="#" class="category">Contact</a>
+        <img src="#" alt="calendar" class="icon"><a href="#" class="category">Schedule</a>
+      <img src="#" alt="search" class="icon">
+    </nav>
+    <div class="teaser">
+      <img src="/dist/image/SpeakersPicture/presents.png" alt="Speaker" class="teaser-image">
+      <div class="teaser-content">
+        <h1 class="teaser-title">Speaker Edition 2023</h1>
+        <p class="teaser-text">Discover the speakers and the topics or suggest your own topic for our next event</p>
+      </div>
+    </div>
   </header>
   
-  <div class="teaser">
-    <img src="/dist/image/SpeakersPicture/presents.png" alt="Image" class="teaser-image">
-    <div class="teaser-content">
-      <h1 class="teaser-title">Speaker Edition 2023</h1>
-      <p class="teaser-text">Discover the speakers and the topics or suggest your own topic for our next event</p>
-    </div>
-  </div>
 
   <div class="first-lign">
     <i class="home"></i>
@@ -39,13 +39,13 @@
   </div>
 
   <!-- CARDS ;
-  CardON : Recto de la carte, première phase visible
+  Card--on : Recto de la carte, première phase visible
   XX : Phase de transition avec "more informations"
-  CardOFF : Verso après avoir cliquer sur la phase de transition -->
+  Card--off : Verso après avoir cliquer sur la phase de transition -->
 
   
-  <div class="cards">
-    <section class="cardON">
+  <div class="card">
+    <section class="card--on">
       <img class="card__img" src="/dist/image/SpeakersPicture/chris@3x.jpg" alt="Chris Coyier">
       <h2 class="card__orator">Chris <strong class="card__name">Coyier</strong></h2>
       <p class="card__location">Milwaukee, WI</p>
@@ -61,10 +61,10 @@
       </div> -->
     </section>
     
-    <section class="cardOFF">
-      <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/chris@3x.jpg" alt="Chris Coyier"> -->
-      <h2 class="cardoff__orator">Chris <strong class="cardoff__name">Coyier</strong></h2>
-      <!--<p class="cardoff__location">Milwaukee, WI</p> -->
+    <section class="card--off">
+      <!--<img class="card__img" src="/dist/image/SpeakersPicture/chris@3x.jpg" alt="Chris Coyier"> -->
+      <h2 class="card__orator">Chris <strong class="card__name">Coyier</strong></h2>
+      <!--<p class="card__location">Milwaukee, WI</p> -->
       <h3 class="card__topic">The All-Powerful Front-End Developer</h3>
       <p class="card__description">Without servers, we'd have no way to share our creations with the world</p>
       <div class="card__btn"> 
@@ -78,8 +78,8 @@
   </div>
   
 
-  <div class="cards">
-    <section class="cardON">
+  <div class="card">
+    <section class="card--on">
       <img class="card__img" src="/dist/image/SpeakersPicture/sara@3x.jpg" alt="Sara Soueidan">
       <h2 class="card__orator">Sara <strong class="card__name">Soueidan</strong></h2>
       <p class="card__location">Lebanon</p>
@@ -95,10 +95,10 @@
       </div> -->
     </section>
     
-    <section class="cardOFF">
-      <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/sara@3x.jpg" alt="Sara Soueidan"> -->
-      <h2 class="cardoff__orator">Sara <strong class="cardoff__name">Soueidan</strong></h2>
-      <!--<p class="cardoff__location">Lebanon</p> -->
+    <section class="card--off">
+      <!--<img class="card__img" src="/dist/image/SpeakersPicture/sara@3x.jpg" alt="Sara Soueidan"> -->
+      <h2 class="card__orator">Sara <strong class="card__name">Soueidan</strong></h2>
+      <!--<p class="card__location">Lebanon</p> -->
       <h3 class="card__topic">Going Offline</h3>
       <p class="card__description">You can re-visit my Web site even when you’re not connected to the Internet</p>
       <div class="card__btn"> 
@@ -112,8 +112,8 @@
   </div>
 
 
-  <div class="cards">
-    <section class="cardON">
+  <div class="card">
+    <section class="card--on">
       <img class="card__img" src="/dist/image/SpeakersPicture/eric@3x.jpg" alt="Eric Mayer">
       <h2 class="card__orator">Eric <strong class="card__name">Mayer</strong></h2>
       <p class="card__location">Cleveland, OH</p>
@@ -130,10 +130,10 @@
     </div> -->
     </section>
   
-    <section class="cardOFF">
-       <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/eric@3x.jpg" alt="Eric Mayer"> -->
-       <h2 class="cardoff__orator">Eric <strong class="cardoff__name">Mayer</strong></h2>
-       <!--<p class="cardoff__location">Cleveland, OH</p> -->
+    <section class="card--off">
+       <!--<img class="card__img" src="/dist/image/SpeakersPicture/eric@3x.jpg" alt="Eric Mayer"> -->
+       <h2 class="card__orator">Eric <strong class="card__name">Mayer</strong></h2>
+       <!--<p class="card__location">Cleveland, OH</p> -->
        <h3 class="card__topic">Faux Grid Tracks</h3>
        <p class="card__description">Is it possible to style the rows and columns of a [CSS] grid—the grid itself?</p>
        <div class="card__btn"> 
@@ -147,8 +147,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/lea@3x.jpg" alt="Lea Verou">
     <h2 class="card__orator">Lea <strong class="card__name">Verou</strong></h2>
     <p class="card__location">Cambridge, MA</p>
@@ -164,10 +164,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/lea@3x.jpg" alt="Lea Verou"> -->
-     <h2 class="cardoff__orator">Lea <strong class="cardoff__name">Verou</strong></h2>
-     <!--<p class="cardoff__location">Cambridge, MA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/lea@3x.jpg" alt="Lea Verou"> -->
+     <h2 class="card__orator">Lea <strong class="card__name">Verou</strong></h2>
+     <!--<p class="card__location">Cambridge, MA</p> -->
      <h3 class="card__topic">Mavo</h3>
      <p class="card__description">New approachable way to create Web applications</p>
      <div class="card__btn"> 
@@ -181,8 +181,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/shirley@3x.jpg" alt="Shirley Wu">
     <h2 class="card__orator">Shirley <strong class="card__name">Wu</strong></h2>
     <p class="card__location">San Francisco, CA</p>
@@ -198,10 +198,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/shirley@3x.jpg" alt="Shirley Wu"> -->
-     <h2 class="cardoff__orator">Shirley <strong class="cardoff__name">Wu</strong></h2>
-     <!--<p class="cardoff__location">San Francisco, CA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/shirley@3x.jpg" alt="Shirley Wu"> -->
+     <h2 class="card__orator">Shirley <strong class="card__name">Wu</strong></h2>
+     <!--<p class="card__location">San Francisco, CA</p> -->
      <h3 class="card__topic">655 Frustrations Doing Data Visualization</h3>
      <p class="card__description">Visualization teams spend more time visualizing than those on embedded teams</p>
      <div class="card__btn"> 
@@ -215,8 +215,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/luke@3x.jpg" alt="Luke Wroblewski">
     <h2 class="card__orator">Luke <strong class="card__name">Wroblewski</strong></h2>
     <p class="card__location">San Francisco, CA</p>
@@ -232,10 +232,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/luke@3x.jpg" alt="Luke Wroblewski"> -->
-     <h2 class="cardoff__orator">Luke <strong class="cardoff__name">Wroblewski</strong></h2>
-     <!--<p class="cardoff__location">San Francisco, CA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/luke@3x.jpg" alt="Luke Wroblewski"> -->
+     <h2 class="card__orator">Luke <strong class="card__name">Wroblewski</strong></h2>
+     <!--<p class="card__location">San Francisco, CA</p> -->
      <h3 class="card__topic">The Way of the Web</h3>
      <p class="card__description">Science fiction is not about predicting the future, but about what we need to have a future</p>
      <div class="card__btn"> 
@@ -249,8 +249,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/nico@3x.jpg" alt="Nicolas Gallagher">
     <h2 class="card__orator">Nicolas <strong class="card__name">Gallagher</strong></h2>
     <p class="card__location">San Francisco, CA</p>
@@ -266,10 +266,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/nico@3x.jpg" alt="Nicolas Gallagher"> -->
-     <h2 class="cardoff__orator">Nicolas <strong class="cardoff__name">Gallagher</strong></h2>
-     <!--<p class="cardoff__location">San Francisco, CA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/nico@3x.jpg" alt="Nicolas Gallagher"> -->
+     <h2 class="card__orator">Nicolas <strong class="card__name">Gallagher</strong></h2>
+     <!--<p class="card__location">San Francisco, CA</p> -->
      <h3 class="card__topic">Making SVG icon libraries for React apps</h3>
      <p class="card__description">Using SVG is currently the best way to create icon libraries for apps</p>
      <div class="card__btn"> 
@@ -283,8 +283,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/rachel@3x.jpg" alt="Rachel Andrew">
     <h2 class="card__orator">Rachel <strong class="card__name">Andrew</strong></h2>
     <p class="card__location">Bristol, UK</p>
@@ -300,10 +300,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/rachel@3x.jpg" alt="Rachel Andrew"> -->
-     <h2 class="cardoff__orator">Rachel <strong class="cardoff__name">Andrew</strong></h2>
-     <!--<p class="cardoff__location">Bristol, UK</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/rachel@3x.jpg" alt="Rachel Andrew"> -->
+     <h2 class="card__orator">Rachel <strong class="card__name">Andrew</strong></h2>
+     <!--<p class="card__location">Bristol, UK</p> -->
      <h3 class="card__topic">Making Things Better</h3>
      <p class="card__description">Redefining the Technical Possibilities of CSS</p>
      <div class="card__btn"> 
@@ -317,8 +317,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/stephen@3x.jpg" alt="Stephen Hay">
     <h2 class="card__orator">Stephen <strong class="card__name">Hay</strong></h2>
     <p class="card__location">Leeuwarden, NL</p>
@@ -334,10 +334,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/stephen@3x.jpg" alt="Stephen Hay"> -->
-     <h2 class="cardoff__orator">Stephen <strong class="cardoff__name">Hay</strong></h2>
-     <!--<p class="cardoff__location">Leeuwarden, NL</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/stephen@3x.jpg" alt="Stephen Hay"> -->
+     <h2 class="card__orator">Stephen <strong class="card__name">Hay</strong></h2>
+     <!--<p class="card__location">Leeuwarden, NL</p> -->
      <h3 class="card__topic">Zero interface thinking</h3>
      <p class="card__description">Everything we introduce has the potential to ruin everything. Ask: Is this absolutely necessary?</p>
      <div class="card__btn"> 
@@ -351,8 +351,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/paul@3x.jpg" alt="Paul Irish">
     <h2 class="card__orator">Paul <strong class="card__name">Irish</strong></h2>
     <p class="card__location">Palo Alto, CA</p>
@@ -368,10 +368,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/paul@3x.jpg" alt="Paul Irish"> -->
-     <h2 class="cardoff__orator">Paul <strong class="cardoff__name">Irish</strong></h2>
-     <!--<p class="cardoff__location">Palo Alto, CA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/paul@3x.jpg" alt="Paul Irish"> -->
+     <h2 class="card__orator">Paul <strong class="card__name">Irish</strong></h2>
+     <!--<p class="card__location">Palo Alto, CA</p> -->
      <h3 class="card__topic">Developer Tooling, lighthouse</h3>
      <p class="card__description">Auditing, performance metrics, and best practices for Progressive Web Apps</p>
      <div class="card__btn"> 
@@ -385,8 +385,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/nicole@3x.jpg" alt="Nicole Sullivan">
     <h2 class="card__orator">Nicole <strong class="card__name">Sullivan</strong></h2>
     <p class="card__location">San Francisco, CA</p>
@@ -402,10 +402,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/nicole@3x.jpg" alt="Nicole Sullivan"> -->
-     <h2 class="cardoff__orator">Nicole <strong class="cardoff__name">Sullivan</strong></h2>
-     <!--<p class="cardoff__location">San Francisco, CA</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/nicole@3x.jpg" alt="Nicole Sullivan"> -->
+     <h2 class="card__orator">Nicole <strong class="card__name">Sullivan</strong></h2>
+     <!--<p class="card__location">San Francisco, CA</p> -->
      <h3 class="card__topic">OOCSS code standards</h3>
      <p class="card__description">Code conventions are important for the long-term maintainability of code</p>
      <div class="card__btn"> 
@@ -419,8 +419,8 @@
 </div>
 
 
-<div class="cards">
-  <section class="cardON">
+<div class="card">
+  <section class="card--on">
     <img class="card__img" src="/dist/image/SpeakersPicture/brad@3x.jpg" alt="Brad Frost">
     <h2 class="card__orator">Brad <strong class="card__name">Frost</strong></h2>
     <p class="card__location">Pittsburgh, PA.</p>
@@ -436,10 +436,10 @@
   </div> -->
   </section>
 
-  <section class="cardOFF">
-     <!--<img class="cardoff__img" src="/dist/image/SpeakersPicture/brad@3x.jpg" alt="Brad Frost"> -->
-     <h2 class="cardoff__orator">Brad <strong class="cardoff__name">Frost</strong></h2>
-     <!--<p class="cardoff__location">Pittsburgh, PA.</p> -->
+  <section class="card--off">
+     <!--<img class="card__img" src="/dist/image/SpeakersPicture/brad@3x.jpg" alt="Brad Frost"> -->
+     <h2 class="card__orator">Brad <strong class="card__name">Frost</strong></h2>
+     <!--<p class="card__location">Pittsburgh, PA.</p> -->
      <h3 class="card__topic">Atomic Design</h3>
      <p class="card__description">We can construct design systems in a more methodical way</p>
      <div class="card__btn"> 
@@ -454,7 +454,7 @@
 
 <!-- Formulaire à partir d'ici -->
 
-  <div class="speaker-form">
+  <div class="form">
     <h2 class="title">BECOME SPEAKER</h2>
     <h3 class="subtitle">Do you have a topic that you like?</h3>
     <p class="description">Submit it for the next event by filling out the form below. Do not forget to specify the subject and the related keywords.</p>

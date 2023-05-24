@@ -11,6 +11,8 @@
 
 <body>
 
+<!-- HEADER -->
+
   <header>
     <img src="/dist/image/logos/logo2023.svg" alt="LogoCodeConf" class="logo">
     <ul class="categories">
@@ -452,6 +454,70 @@
 
 <!-- Formulaire à partir d'ici -->
 
+  <div class="speaker-form">
+    <h2 class="title">BECOME SPEAKER</h2>
+    <h3 class="subtitle">Do you have a topic that you like?</h3>
+    <p class="description">Submit it for the next event by filling out the form below. Do not forget to specify the subject and the related keywords.</p>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name*</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Mail*</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="subject">Your Subject*</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="keywords">Keywords*</label>
+      <input type="text" id="keywords" name="keywords" required>
+      
+      <label for="details">Short details</label>
+      <textarea id="details" name="details"></textarea>
+      
+      <button type="submit">Send your subject</button>
+    </form>
+    <p>or just participate to the present event ...</p>
+  </div>
+  <button class="get-ticket">Get Ticket</button>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="text-section">
+    <h4 class="title">The Las Vegas Convention Center</h4>
+    <p>3150 Paradise Rd, Las Vegas, NV 89109</p>
+    <p>The Las Vegas Convention Center (LVCC), located adjacent to the Las Vegas Strip, encompasses approximately 3.2 million square feet with exhibit space of 2 million square feet and meeting space of nearly 250,000 square feet.</p>
+    <img src="/dist/image/Pictures/lasvegas_conventioncenter.png" alt="Las Vegas">
+  </div>
+  <div class="partenariats">
+    <img src="/dist/image/logos/cisco.svg" alt="Cisco">
+    <img src="/dist/image/logos/amazon_s3.svg" alt="Amazon">
+    <img src="/dist/image/logos/nick.svg" alt="Nickelodeon">
+    <img src="/dist/image/logos/meetup.svg" alt="MeetUp">
+    <img src="/dist/image/logos/stripe.svg" alt="Stripe">
+    <img src="/dist/image/logos/mailchimp.svg" alt="MailChimp">
+  </div>
+  <div class="social-section">
+    <h4 class="title">Follow Us</h4>
+    <div class="social-icons">
+      <a href="#"><img src="#" alt="Hashtag"></a><span class="hashtag">#codeconf2023</span>
+      <a href="#"><img src="#" alt="Twitter"></a><span class="hashtag">@codeconf2023</span>
+    </div>
+  <div class="text-blocks">
+    <div class="text-block">
+      <p>
+        Helpdesk Call-center
+        +1 702-892-0711 (speaker’s support)
+      </p>
+    </div>
+    <div class="text-block">
+      <p>
+        organised by WebeesMeetups.com
+        Copyright 2023
+      </p>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
